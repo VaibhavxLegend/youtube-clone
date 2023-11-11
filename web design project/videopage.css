@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin-left: 20px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#logo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}   
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+#search-bar input {
+    width: 250px; 
+    padding: 7px;
+    border-radius: 30px;
+    border-color: #00000041;
+}
+#search-bar button {
+    background: #fa0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#user-icons {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin: 0 8px;
+}
+#upload-button a {
+    background: #fa0000;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.thumbnail {
+    position: relative;
+    border: #333;
+}
+.thumbnail img {
+    width: 99%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h2 {
+    margin-top: -5px;
+}
+h4 {
+    margin-top: -20px;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+.menu {
+    height: 100vh;
+    width: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+.menu a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.menu div {
+    margin-bottom: 20px;
+}
+
+.menu:hover {
+    width: 180px;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+/* Video Info Styles */
+.video-info {
+    padding: 20px;
+    background-color: #c7c7c7;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .video-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .video-bio {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .youtuber-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subscriber-count,
+  .view-count {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+.video-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto;
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
+    position: relative;
+    background-color: #000;
+  }
+  
+
+  .video-player iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }  
+  .button {
+    display: inline;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover{
+    opacity: 0.7;
+  }
+  .button:active{
+    background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+  }
+  .button.clicked{
+    background-color: red !important;
+  }
+  .button.dislike {
+    background-color: #f44336;
+  }
+
+  .comment-form {
+    margin-top: 20px;
+  }
+
+  .comment-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #subscribe{
+    float: right;
+  }
+  #youtuber{
+    justify-content: center;
+  }

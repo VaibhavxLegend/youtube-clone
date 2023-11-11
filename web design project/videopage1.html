@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="videopage.css">
+</head>
+<body>
+<!-- header -->
+<header class="header">
+    <div id="header-content">
+            <div id="logo">
+                <img src="Union.png" alt="logo" height="55px">
+            </div>
+        <div id="search-bar">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
+        <div id="user-icons">
+            <div class="icon">
+                <a href="login.html"><img src="icons/user.png" alt="Profile"></a>
+            </div>
+            <div class="icon">
+                <img src="icons/bell.png" alt="Notifications">
+            </div>
+            <div class="icon">
+                <img src="icons/stop-waves.png" alt="Settings">
+            </div>
+            <div id="upload-button">
+                <a href="upload.html">Upload</a>
+            </div>
+        </div>
+    </div>
+</header>
+<hr>
+
+<!-- navigation bar -->
+<div class="menu">
+    <div>
+        <a href="homepage.html"><img src="icons/home.png" alt="home icon">Home</a>
+    </div>
+    <div>
+        <a href="shorts.html"><img src="icons/myna.png" alt="Shorts icon">Shorts</a>
+    </div>
+    <div>
+        <a href="#"><img src="icons/cog.png" alt="settings icon">Settings</a>
+    </div>
+    <div>
+        <a href="credits.html"><img src="icons/users.png" alt="Credits icon">Credits</a>
+    </div>
+</div>
+<!-- main content -->
+<div class="video-container">
+    <div class="video-player">
+      <iframe width="100%" height="100%" src="videos/abc.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h1 class="video-title">Video Title</h1>
+    <button class="button" type="button">Like</button>
+    <!-- Dislike Button -->
+    <button class="button dislike" type="button">Dislike</button>   
+
+    <div class="video-info">
+      <p class="view-count"><strong>Views: 1M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 year ago</strong></p>
+      <p class="video-bio">Video description and bio goes here.</p>      
+    </div>
+    <div id="youtuber">
+    <p class="youtuber-name">YouTuber Name</p>
+    <p class="subscriber-count">Subscribers: 1M</p>
+    <!-- Subscribe Button -->
+    <button class="button" type="button" id="subscribe">Subscribe</button>
+    </div>
+    <div>
+        <form>          
+            <!-- Comment Form -->
+            <div class="comment-form">
+              <textarea placeholder="Write your comment here..."></textarea><br>
+              <button type="submit">Submit</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
